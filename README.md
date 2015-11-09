@@ -1,11 +1,11 @@
-# babel-preset-es2015
+# babel-preset-es2015-loose
 
-> Babel preset for all es2015 plugins.
+> Babel preset for all es2015 plugins, with loose mode enabled where available.
 
 ## Install
 
 ```sh
-$ npm install --save-dev babel-preset-es2015
+$ npm install --save-dev babel-preset-es2015-loose
 ```
 
 ## Usage
@@ -16,20 +16,20 @@ $ npm install --save-dev babel-preset-es2015
 
 ```json
 {
-  "presets": ["es2015"]
+  "presets": ["es2015-loose"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --presets es2015 
+$ babel script.js --presets es2015-loose
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["es2015"]
+  presets: ["es2015-loose"]
 });
 ```
