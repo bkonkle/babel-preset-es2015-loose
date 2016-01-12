@@ -7,7 +7,7 @@ enable loose mode where available.
 ## Install
 
 ```sh
-$ npm install --save-dev babel-preset-es2015-loose
+$ npm install --save-dev babel-preset-es2015-loose babel-preset-es2015
 ```
 
 ## Usage
