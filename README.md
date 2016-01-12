@@ -1,6 +1,8 @@
 # babel-preset-es2015-loose
 
-> Babel preset for all es2015 plugins, with loose mode enabled where available.
+Babel preset that modifies
+[babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) to
+enable loose mode where available.
 
 ## Install
 
@@ -31,5 +33,5 @@ $ babel script.js --presets es2015-loose
 ```javascript
 require("babel-core").transform("code", {
   presets: ["es2015-loose"]
-});
+})
 ```
