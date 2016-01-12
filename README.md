@@ -6,6 +6,8 @@ enable loose mode where available.
 
 ## Install
 
+Install both this preset, and the core 'babel-preset-es2015' that it modifies:
+
 ```sh
 $ npm install --save-dev babel-preset-es2015-loose babel-preset-es2015
 ```
