@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2015-loose",
-  "version": "6.2.1",
+  "version": "7.0.0",
   "description": "Babel preset for all es2015 plugins, with loose mode enabled where available.",
   "authors": [
     "Brandon Konkle <brandon@konkle.us>",
