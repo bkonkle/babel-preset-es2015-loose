@@ -2,7 +2,8 @@
 
 Babel preset that modifies
 [babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) to
-enable loose mode where available.
+enable [loose mode](http://www.2ality.com/2015/12/babel6-loose-mode.html)
+where available.
 
 ## Install
 
