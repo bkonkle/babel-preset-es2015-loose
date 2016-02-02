@@ -11,6 +11,12 @@ Install both this preset, and the core 'babel-preset-es2015' that it modifies:
 $ npm install --save-dev babel-preset-es2015-loose babel-preset-es2015
 ```
 
+Why do you need to install both? The idea is that `babel-preset-es2015-loose`
+will always be up to date because it will always use the version of
+`babel-preset-2015` the user has installed. If you don't want to update to
+the latest Babel release - you don't have to. Just pin `babel-preset-2015` to
+the version you need.
+
 ## Usage
 
 ### Via `.babelrc` (Recommended)
