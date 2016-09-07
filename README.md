@@ -1,10 +1,10 @@
 # babel-preset-es2015-loose
 
->## This Project is Deprecated
+>## Deprecation warning
 
->The preset that this project is based on, [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages/babel-preset-es2015), now supports setting the "loose" option directly.
+>This project is deprecated for users of Babel v6.13+. It will still be maintained for users of earlier Babel versions. 👍
 
->After updating to `babel-preset-es2015` v6.13.0 or higher, you can remove `'es2015-loose'` from your list of presets and instead use the `'es2015` preset this way:
+>The preset that this project is based on, [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages/babel-preset-es2015), now supports setting the "loose" option directly. After updating to `babel-preset-es2015` v6.13.0 or higher, you can remove `'es2015-loose'` from your list of presets and instead use the `'es2015` preset this way:
 
 >```{
   presets: [
