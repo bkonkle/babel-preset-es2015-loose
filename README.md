@@ -6,11 +6,13 @@
 
 >The preset that this project is based on, [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages/babel-preset-es2015), now supports setting the "loose" option directly. After updating to `babel-preset-es2015` v6.13.0 or higher, you can remove `'es2015-loose'` from your list of presets and instead use the `'es2015` preset this way:
 
->```{
+```json
+{
   presets: [
     ["es2015", {"loose": true}]
   ]
-}```
+}
+```
 
 Babel preset that uses [modify-babel-preset] to modify [babel-preset-es2015]
 and enable [loose mode] where available.
